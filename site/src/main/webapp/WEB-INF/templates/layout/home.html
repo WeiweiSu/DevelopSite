@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">Broadleaf Commerce Demo Store - Heat Clinic</title>
+    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">PhoneCase Commerce Demo Store - Phone Case ( Company Name )</title>
     <th:block th:replace="/layout/partials/head"></th:block>
 </head>
 
@@ -17,12 +17,13 @@
         <nav th:substituteby="layout/partials/nav" />
 
         <div id="banners">
+        	
             <a th:href="@{/merchandise}"><img blc:src="@{/img/banners/shirt-special.jpg}" /></a>
         </div>
         
         <a th:href="@{/register}" style="text-decoration:none">
             <div id="home_feature">
-                <h2>HOT SAUCE AFICIONADO?</h2> Click to join our Heat Clinic Frequent Care Program. The place to get all the deals on burn treatment.
+                <h2>WANT A FANCY PHONE CASE?</h2> Click to join our community, the place to get more discounts.
             </div>
         </a>
 

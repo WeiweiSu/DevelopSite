@@ -233,7 +233,7 @@ span.error_spacer {
    ========================================================================== */
 
 .width_setter {
-    width: 980px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -258,12 +258,12 @@ header {
     width: 100%;
     color: #342020;
     font: 15px/28px 'Open Sans', Helvetica, sans-serif;
-    font-weight: 600;
-    border-top: 15px solid #E40037;
+    font-weight: 300;
+    border-top: 15px solid #00e6e6;
 }
 
 #header_content {
-    width: 980px;
+    width: 1080px;
     margin: 0 auto;
     position: relative;
 }
@@ -277,7 +277,7 @@ header {
 }
 
 #header_content_checkout {
-    width: 980px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -331,7 +331,10 @@ header {
     #header_content #logo h1, #header_content_checkout #logo h1 {
         width: 299px;
         height: 101px;
-        background: url('../img/the-heat-clinic-logo-internal.png') top left no-repeat;
+        /*background: url('../img/the-heat-clinic-logo-internal.png') top left no-repeat;*/
+        background: url('../img/added/logo.jpg') top left no-repeat;
+        background-size: contain;
+        
         text-indent: -9999px;
         margin-top: -5px;
         display: block;
@@ -370,7 +373,7 @@ header {
 
     #header_content #cart_info {
         padding: 10px 20px;
-        background-color: #E40037;
+        background-color: #00e6e6;
         color: white;
         text-align: right;
         float: right;
@@ -436,15 +439,15 @@ nav {
     }
     
     nav ul li a {
-        font: 16px/76px 'Open Sans', Helvetica, sans-serif;
-        font-weight: 600;
+        font: 13px/36px 'Open Sans', Helvetica, sans-serif;
+        font-weight: 300;
         color: #342020;
-        padding: 25px 30px;
+        padding: 10px 15px;
         background: url('../img/nav-divider.png') top left no-repeat;
     }
     
     .locale-fr_FR nav ul li a {
-    	padding: 25px 10px;
+    	padding: 15px 10px;
     }
     
     nav ul li a.home {
@@ -476,7 +479,7 @@ nav {
         z-index: 99999;
         display: none;
         width: 174px;
-        top:179px;
+        top:142px;
         border-left: 1px solid #C8C3C1;
         border-bottom: 1px solid #C8C3C1;
         border-right: 1px solid #C8C3C1;
@@ -502,11 +505,11 @@ nav {
         background: none;
     }
 
-    ul.sub-menu li:hover ul.secondary-menu {
+    ul.sub-menu li:hover ul.secondary-sub-menu {
         display: inline;
     }
 
-    .secondary-menu {
+    .secondary-sub-menu {
         position: absolute;
         list-style-type: none;
         background-color: #FFFFFF;
@@ -514,6 +517,7 @@ nav {
         display: none;
         left: 174px;
         width: 253px;
+        bottom: 42px;
     }
 
 #banners {
@@ -541,7 +545,7 @@ nav {
     }
 
 #content, #checkout_content {
-    width: 980px;
+    width: 1080px;
     margin-top: -5px;
     background-color: #fff;
     padding-bottom: 30px;
